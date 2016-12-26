@@ -8,9 +8,19 @@
  *
  * Main module of the application.
  */
+
+ angular.module('filters-module', [])
+.filter('trustAsResourceUrl', ['$sce', function($sce) {
+    return function(val) {
+        return $sce.trustAsResourceUrl(val);
+    };
+}]);
+
+
 angular
   .module('deathping1994githubioApp', [
-    'ngRoute'
+    'ngRoute',
+    'filters-module'
     ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -53,3 +63,4 @@ angular
         redirectTo: '/'
       });
   });
+

@@ -2,22 +2,14 @@
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading h3">Things I work on ...</div>
-  <div class="panel-body">
-    <p>This is a list of some projects I've worked on, most of them are under development and some of them are open sourced.
-    </p>
-  </div>
-
   <!-- Table -->
   <table class="table table-responsive">
     <tr ng-repeat="project in projects">
-    	<td><a ng-href={{project.url}} target="_blank"><img class="img-responsive" max-width="350" max-height="250" ng-src={{project.img}} /></a>
+    	<td><iframe width="560" height="315" ng-src="{{project.src | trustAsResourceUrl}}" frameborder="0" allowfullscreen></iframe>
     	</td>
     	<td class="well">
     		<p class="h2">{{project.name}}</p>
     		<p class="text-muted">{{project.description}}</p>
-    		<p class="text-info">Live Demo: <a ng-href={{project.url}} target="_blank">{{project.url}}</a></p>
-    		<p class="text-success">Stack: {{project.stack}}</p>
-    		<p class="text-muted"><a ng-href="{{project.presentation}}" target="_blank" ng-if= "project.presentation.length">Project Presentation</a> . <a ng-if ="project.code.length" ng-href="{{project.code}}">Source Code</a></p>
     	</td>
     </tr>
   </table>

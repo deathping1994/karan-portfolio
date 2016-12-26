@@ -19,35 +19,25 @@ angular.module('deathping1994githubioApp')
                         ];
     $scope.projects= [
     {
-        name: "Delimedy #LiveBetter",
-        url: "https://delimedy.com",
-        img: "images/delimedy.png",
-        description: "E-Commerce website to orders medicines and get them delivered at your doorstep.I worked on this while I was freelancing.",
-        stack: "Django/jQuery/MySql/Redis"
+        name: "Social Cause | Clothes Donation Advert",
+        src: "https://youtube.com/embed/FKyhC-RfF3U",
+        type: "video",
+        description: "A video advertisement direccted towards youth, spreading awareness about hardships faced by the poor and underpriviledged during winters. This video was screened infront of 100+ audience and recieved positive reviews.",
     },
     {
-      name: "Concerted Website",
-      img: "images/concerted.png",
-      url: "http://gauravshukla.xyz/concerted-website",
-      code: "https://github.com/apache/incubator-concerted",
-      description: "This is a website I designed for Apache-Concerted Project (now dead).This website renders markdown format and can be update via git, no knowledge of webservers needed.",
-      stack: "Angular JS"
+      name: "Mobile Handset Advertisement",
+      src: "https://www.youtube.com/embed/FY6CI6k41vg",
+      description: "This advertisement was created for a college assignment.The video shows the different kind of camera shots geerally used in a advertisements."
       },
       {
-        name: "MechEye Photography",
-        url: "http://mecheyephotography.com/",
-        img: "images/mecheye.png",
-        description: "A photography portfolio designed to be operated and updated from google drive, no hosting account or expertise needed.",
-        stack: "Angular JS/PHP"
+        name: "Broadcast Journalism | Azhar Movie Trailer",
+        src: "https://youtube.com/embed/uZsA1DcGTUg",
+        description: "A college assignment to test video editing skills and Broadcast Journalism",
       },
       {
-        name: "Probase",
-        url: "http://probase.gauravshukla.xyz:8080/",
-        code: "https://github.com/deathping1994/probase",
-        img: "images/probase.png",
-        description: "Project management system with realtime search and plagairism checking I developed for my college.",
-        stack: "Elastic Search/Mongo/Python-Flask/AngularJs",
-        presentation: "https://docs.google.com/presentation/d/1tjkAgJtFk8eTRpIKxPhASYVxD67BpsNPoQwdhhOWG8M/edit?usp=sharing"
+        name: "Comedy Video | Shit People Do on Facebook",
+        src: "https://www.youtube.com/embed/m4fRp8zeuKY",
+        description: "Acted and Scripted a comedy video in collaboration with youtube channel -  `The Placebo Fusion`",
       },
       {
         name: "Parallax",
