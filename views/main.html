@@ -1,0 +1,93 @@
+<style type="text/css">
+</style>
+<div class="well">
+<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-12">
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="images/gaurav.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a href="http://gauravshukla.xyz/">Gaurav Shukla</a>
+                    </div>
+                    <div class="desc">Freelance Software Developer</div>
+                    <div class="desc">Tech geek</div>
+                    <div class="desc">Generalist</div>
+                    <div class="desc">Constant Learner</div>
+                    <div class="desc">Big Picture Guy</div>
+                    <div class="desc"><a class="btn btn-lg btn-success" ng-href="#/hiring">Hire Me<span class="glyphicon glyphicon-ok"></span></a></div>
+                </div>
+                <div class="bottom">
+                    <a class="roundbtn btn-primary btn-twitter btn-sm" href="https://www.linkedin.com/in/gaurav-shukla-42ba1832">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="roundbtn btn-danger btn-sm" rel="publisher"
+                       href="https://plus.google.com/+GauravShuklajiit/">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="roundbtn btn-primary btn-sm" rel="publisher"
+                       href="https://fb.com/deathping1994">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="roundbtn btn-warning btn-sm" rel="publisher" href="https://github.com/deathping1994">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 col-md-9 ">
+        	<div class="panel panel-default">
+			  <div class="panel-body">
+			    <p class="text-muted">Hi, I am Gaurav Shukla </p>
+			    <p class="text-center h3 text-info"><i>Freelance Software Developer</i></p>
+			    <p class="text-muted"><br>My area of expertise is Decoupled Webapps and Web services but anything even remotely related to computers catches my attention.
+			    </p>
+			    <div class="well">
+			    <p class="text-info"><br>My area of interest includes-
+				    <ul class="unordered-list text-info">
+				    	<li>Restful Web Services</li>
+                        <li>Design Theory</li>
+				    	<li>MicroServices Architecture</li>
+				    	<li>Distributed Computing</li>
+				    	<li>Machine Learning</li>
+				    	<li>Conversational UI</li>	
+				    </ul>
+				</p>
+				</div>
+				<p class="text-info well">
+					Apart from all this technical stuff I like reading random stuff - from history of India to the mystry of Universe, literally anything.
+					Quora is my most visited site.<br><br> I like going on long walks more than anything else and I am not the right person to discuss sports with,world politics is my forte.
+				</p>
+			  </div>
+			</div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+        <div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Testimonials</h3>
+		  </div>
+		  <div class="panel-body">
+			<div  ng-repeat= "testi in testimonials" class="testimonials">
+            	<div class="active item">
+                  <blockquote><p>{{testi.quote}}</p></blockquote>
+                  <div class="carousel-info">
+                    <img alt="testimonial-{{testi.name}}" ng-src="{{testi.img}}" class="pull-left">
+                    <div class="pull-left">
+                      <span class="testimonials-name">{{testi.name}}</span>
+                      <span class="testimonials-post">{{testi.desc}}</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+			</div>
+		</div>
+      		
+        </div>
+</div>
+</div>
